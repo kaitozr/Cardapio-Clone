@@ -1,88 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-    <title>Weather Report</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="./style.css">
+    <title>Cardapio Cervejaria</title>
 </head>
 <body>
-
-    <div class="container">
-
-        <div class="container-overlay"></div>
-        <div id="map-info">
-            <div class="city">
-                <h2>Ituiutaba,</h2>
-                <h2>Minas Gerais</h2>
-            </div>
-            <img id="map-ico" src="./assets/icos/Map.svg" alt="map icon">
-
-        </div>   
-        <div id="calendar-info">
-            <img id="calendar-ico" src="./assets/icos/Calendar.svg" alt="calendar icon">
-            <div class="today">
-                <h2 id="week-today">Tuesday</h2>
-                <h2 id="day-month">11 July</h2>
-            </div>
+    <div id="header">
+        <div id="logo">
+            <img src="./assets/Logo_Original_Negativa_sf.png" alt="Logo Cervejaria">     
         </div>
-
-        <div id="weather-container">
-            <div id="weather-info">
-                <h2 id="weather"></h2>
-                <img id="weather-ico" src="./assets/icos/weather-icos/01d.svg" alt="">
-            </div>
-
+        <hr>
+        <div id="searchico">
+            <img src="./assets/search.png" alt="Search Ico">
         </div>
         
-        <div class="container-footer">
-            <div id="preview-box" class="d1">
-                <h2 id="preview-header">MON</h2>
-                <img id="preview-ico" src="./assets/icos/icon _storm showers_.svg" alt="">
-                <h2 id="preview-temp">25º</h2>
-            </div>
-            <div id="preview-box">
-                <h2  id="preview-header" class="d2">MON</h2>
-                <img id="preview-ico" src="./assets/icos/icon _storm showers_.svg" alt="">
-                <h2 id="preview-temp">25º</h2>
-            </div>
-            <div id="preview-box">
-                <h2  id="preview-header" class="d3">MON</h2>
-                <img id="preview-ico" src="./assets/icos/icon _storm showers_.svg" alt="">
-                <h2 id="preview-temp">25º</h2>
-            </div>
-            <div id="preview-box">
-                <h2  id="preview-header" class="d4">MON</h2>
-                <img id="preview-ico" src="./assets/icos/icon _storm showers_.svg" alt="">
-                <h2 id="preview-temp">25º</h2>
-            </div>
-            <div id="preview-box">
-                <h2  id="preview-header" class="d5">MON</h2>
-                <img id="preview-ico" src="./assets/icos/icon _storm showers_.svg" alt="">
-                <h2 id="preview-temp">25º</h2>
-            </div>
-            <div id="preview-box">
-                <h2  id="preview-header" class="d6">MON</h2>
-                <img id="preview-ico" src="./assets/icos/icon _storm showers_.svg" alt="">
-                <h2 id="preview-temp">25º</h2>
-            </div>
-            <div id="preview-box" class="d7" style="border-right-style: hidden;">
-                <h2  id="preview-header">MON</h2>
-                <img id="preview-ico" src="./assets/icos/icon _storm showers_.svg" alt="">
-                <h2 id="preview-temp">25º</h2>
-            </div>
-        </div>
-        <div class="container-header">
-            <h1>Clima Tempo</h1>
-            <div class="header-background"></div>
-            <a class="github-button" href="https://github.com/kaitozr" target="_blank"></a>
+    </div>
+
+    
+    
+    <div id="menucontainer">
+        <div id="menu">
+            <ul>
+                <li class="item">CERVEJAS</li>
+                <li class="item">DRINKS E DOSES</li>
+                <li class="item">BEBIDAS</li>
+                <li class="item">COMIDAS</li>
+            </ul>
         </div>
     </div>
+
+    <div id="socials">
+        <a href="https://www.facebook.com/cervejariaituiutaba">
+            <img src="./assets/facebook.png" alt="Facebook Link">
+        </a>
+        <a href="https://www.instagram.com/cervejariaituiutaba/">
+            <img src="./assets/instagram.png" alt="Instagram Link">
+        </a>
+    </div>
+
+    <div class="footer-copyright">
+        <div class="footer-top-arrow"></div>
+        <span>Feito com <img src="./assets/html-css-js.png" alt="html/css/javascript"></span>
+    </div>
+
+    <div id="whatsapp-footer">
+        <a href="https://wa.me/5534997781113"><img src="./assets/whatsapp.png" alt="Delivery"></a>
+    </div>
+
 </body>
 </html>
